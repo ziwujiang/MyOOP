@@ -10,3 +10,7 @@ class A:
     def show(self):
         print(self._value1)
         print(self.__value2)
+
+
+a = A(3, 4)
+a.show()
